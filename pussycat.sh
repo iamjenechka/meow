@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 AMOUNT="$@"
 
 [[  $AMOUNT && ${AMOUNT-x} ]] && echo "meow.." || exit 0
